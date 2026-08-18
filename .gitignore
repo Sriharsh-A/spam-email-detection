@@ -1,7 +1,9 @@
 dataset/
 venv/
 dataset.csv
+cleaned_dataset.csv
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
+.streamlit/
