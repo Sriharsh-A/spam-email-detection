@@ -1,11 +1,11 @@
-test_number,email,prediction
-1,Congratulations! You have won a free iPhone. Click here to claim your prize.,spam
-2,You have been selected for a cash reward. Claim your money immediately.,spam
-3,URGENT! Your account has been selected for a special bonus. Click the link now.,spam
-4,"Hi, please find the project report attached. Let me know if any changes are required.",ham
-5,The meeting has been moved to 3 PM tomorrow. Please be available.,ham
-6,Please grant me leave tomorrow as I have a family function.,ham
-7,Happy birthday! We are having a small celebration at home. You are invited.,ham
-8,Your electricity bill is due tomorrow. Please make the payment through the official portal.,ham
-9,Win a luxury car by entering this lucky draw. Register now!,ham
-10,Can you send me the notes from today's class?,ham
+test_number,email,expected,prediction,confidence,correct
+1,Congratulations! You have won a free iPhone. Click here to claim your prize.,spam,spam,56.82,True
+2,You have been selected for a cash reward. Claim your money immediately.,spam,spam,69.25,True
+3,URGENT! Your account has been selected for a special bonus. Click the link now.,spam,spam,93.35,True
+4,"Hi, please find the project report attached. Let me know if any changes are required.",ham,ham,85.64,True
+5,The meeting has been moved to 3 PM tomorrow. Please be available.,ham,ham,78.26,True
+6,Please grant me leave tomorrow as I have a family function.,ham,ham,58.77,True
+7,Happy birthday! We are having a small celebration at home. You are invited.,ham,ham,74.06,True
+8,Your electricity bill is due tomorrow. Please make the payment through the official portal.,ham,ham,62.56,True
+9,Win a luxury car by entering this lucky draw. Register now!,spam,ham,55.61,False
+10,Can you send me the notes from today's class?,ham,ham,75.14,True
