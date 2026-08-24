@@ -30,12 +30,7 @@ email_vector = vectorizer.transform([cleaned_text])
 
 prediction = model.predict(email_vector)[0]
 
-probabilities = model.predict_proba(email_vector)[0]
-confidence = max(probabilities) * 100
-
 if prediction == "spam":
     print("\nResult: SPAM")
 else:
     print("\nResult: NOT SPAM")
-
-print(f"Confidence: {confidence:.2f}%")
